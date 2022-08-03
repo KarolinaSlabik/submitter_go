@@ -7,5 +7,5 @@ This challenge is to build out interactive rating component and get it looking a
 
 The application has an optimal layout depending on the screen size of the device
 
-![plik_1](./design/screen_one.PNG)
-![plik_2](./design/screen_two.PNG)
+![plik_1](./design/screen_one.png)
+![plik_2](./design/screen_two.png)

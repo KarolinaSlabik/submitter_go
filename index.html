@@ -1,0 +1,41 @@
+<html>
+	<head>
+		<link href="submitter_go.css"rel="stylesheet"></link>
+		<script src="submitter_go.js"></script>
+		<title>Submitter go | Interactive rating component</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+	</head>
+	<body>
+		<div id="window">
+			<div id="circle_zero">
+				<img src="images/icon-star.svg" id="star">
+				</img>
+			</div>
+			<h1 id="question_one">How did we do?</h1>
+			<span id="text_one">Please let us know how we did with your support request. All feedback is appreciated 
+			to help us improve our offering!
+			</span>
+			<form method="POST" onsubmit="return send_form();">
+			<div id="circles">
+				<div class="circle" onclick="select_circle(this);">
+				1
+				</div>
+				<div class="circle" onclick="select_circle(this);">
+				2
+				</div>
+				<div class="circle" onclick="select_circle(this);">
+				3
+				</div>
+				<div class="circle" onclick="select_circle(this);">
+				4
+				</div>
+				<div class="circle" onclick="select_circle(this);">
+				5
+				</div>
+			</div>
+			<input type="submit" value="SUBMIT"id="button_submit"/>
+			</form>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300&display=swap');
+
+body
+{
+	background-color:black;
+	font-family: 'Overpass', sans-serif;
+}
+
+#window
+{
+	width:430px;
+	height:430px;
+	background:radial-gradient(at top,#252D37,#1C1E21);
+	border-radius:35px;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+	top:245px;
+}
+
+#circle_zero
+{
+	width:50px;
+	height:50px;
+	background-color:#252D37;
+	border-radius:50px;
+	position:relative;
+	top:40px;
+	left:40px;
+}
+
+#star
+{
+	position:relative;
+	top:17px;
+	left:17px;
+}
+
+#question_one
+{
+	color:FFFFFF;
+	width:400px;
+	position:relative;
+	top:40px;
+	left:40px;
+}
+
+#text_one
+{
+	color:959EAC;
+	width:350px;
+	display:block;
+	position:relative;
+	top:40px;
+	left:40px;
+}
+
+#circles
+{
+	width:400px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.circle
+{
+	width:50px;
+	height:50px;
+	background-color:#252D37;
+	border-radius:50px;
+	display:inline-block;
+	margin-top:70px;
+	margin-left:20px;
+	color:959EAC;
+	text-align:center;
+	line-height:50px;
+	cursor:pointer;
+}
+
+.circle_clicked
+{
+	background-color:#728197;
+	color:white;
+}
+
+#button_submit
+{
+	background-color:#FB7413;
+	width:350px;
+	height:45px;
+	border-radius:45px;
+	position:relative;
+	top:35px;
+	left:35px;
+	color:white;
+	cursor:pointer;
+	border:none;	
+}
+
+#button_submit:hover
+{
+	background-color:white;
+	color:#FB7413;
+}
+
+.circle:hover
+{
+	background-color:#FB7413;
+	color:white;
+}
+
+#thanks_image
+{
+	position:relative;
+	top:50px;
+	left:130px;
+}
+
+#result
+{
+	position:relative;
+	width:200px;
+	height:35px;
+	top:70px;
+	left:110px;
+	text-align:center;
+	line-height:35px;
+	border-radius:20px;
+	background-color:#252D37;
+	color:#FB7413;
+}
+
+#thanks
+{
+	position:relative;
+	width:200px;
+	height:50px;
+	top:80px;
+	left:110px;
+	text-align:center;
+	line-height:50px;
+	color:white;
+}
+
+#thanks_text
+{
+	position:relative;
+	top:65px;
+	left:40px;
+	width:350px;
+	height:100px;
+	line-height:24px;
+	text-align:center;
+	color:#959EAC;
+}
+
+@media only screen and (max-width: 445px)
+{
+	#circle_zero
+	{
+		width:38px;
+		height:38px;
+	}
+	
+	#star
+	{
+		top:11px;
+		left:11px;
+	}
+	
+	#window
+	{
+		width:340px;
+	}
+	
+	#text_one
+	{
+		width:250px;
+	}
+	
+	#circles
+	{
+		width:280px;	
+	}
+	
+	.circle
+	{
+		width:38px;
+		height:38px;
+		margin-left:12px;
+		line-height:38px;
+	}
+	
+	#button_submit
+	{
+		width:255px;
+		left:40px;
+		height:40px;
+	}
+	
+	#thanks_image
+	{
+		left:85px;
+	}
+	
+	#result
+	{
+		left:70px;
+	}
+	
+	#thanks
+	{
+		left:70px;
+	}
+	
+	#thanks_text
+	{
+		width:300px;
+		left:20px;
+	}
+}
+
+
+
+
+
